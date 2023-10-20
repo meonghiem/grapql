@@ -16,7 +16,7 @@ const bootstrapServer = async () => {
     app.listen(port, () => {
         app.listen(port, () => {
             console.log(`🚀 Express ready at http://localhost:${port}`);
-            console.log(`🚀 Graphql ready at http://localhost:${port}/graphql`);
+            console.log(`🚀 Graphql ready at http://localhost:${port}/graphql `);
         });
     })
 }
